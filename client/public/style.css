@@ -1,0 +1,59 @@
+body{
+    height:730px;
+    background: linear-gradient(lightblue,white);
+}
+
+.calen1{
+    width:500px;
+    background:#332f2e;
+    border-radius:7px;
+    margin-bottom:10px;
+    margin:0 auto;
+    margin-top:180px;
+    overflow:hidden;
+    display:block;
+    box-shadow:0 0 20px #332f2e;
+}
+
+.calen2{
+    padding:0 10px 10px 10px;
+    box-sizing:border-box;
+    background: linear-gradient(#749d9e,#b3a68b);
+}
+
+.calendar{
+    font-size:35px;
+    font-style:italic;
+    font-weight:800;
+    color:#f7f3eb;
+    display:block;
+    margin:18px 0 0 0;
+    text-align:center;
+    letter-spacing:10px;
+}
+
+.calen2 span{
+    font-size:30px;
+    font-weight:400;
+    color:#f7f3eb;
+    text-align:center;
+    width:60px;
+    height:60px;
+    display:inline-block;
+    overflow:hidden;
+    line-height:40px;
+}
+
+.calen2 .empty:before{
+    opacity:1.0;
+    content:'-';
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+a:hover{
+    font-size:25px;
+}
